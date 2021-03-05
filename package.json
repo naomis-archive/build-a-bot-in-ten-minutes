@@ -1,0 +1,28 @@
+{
+  "name": "ten-minute-bot",
+  "version": "1.0.0",
+  "description": "Project Description",
+  "main": "./prod/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm -r dotenv/config prod/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhcarrigan/build-a-bot-in-ten-minutes.git"
+  },
+  "author": "Nicholas Carrigan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nhcarrigan/build-a-bot-in-ten-minutes/issues"
+  },
+  "homepage": "https://github.com/nhcarrigan/build-a-bot-in-ten-minutes#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.3"
+  }
+}
